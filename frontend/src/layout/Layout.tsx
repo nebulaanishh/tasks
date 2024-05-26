@@ -4,10 +4,10 @@ import Footer from "../components/Footer";
 
 
 
-const Layout = ({children}:ILayout) => {
+const Layout = ({children}:any) => {
     
     return (
-        <div>
+        <div className="bg-yellow-500">
             <Navbar />
                 {children}
             <Footer />
