@@ -1,3 +1,6 @@
 from django.contrib import admin
+from recipe.models.recipe import Recipe
 
-# Register your models here.
+@admin.register(Recipe)
+class RecipeAdmin(admin.ModelAdmin):
+    pass
