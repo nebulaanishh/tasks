@@ -1,5 +1,5 @@
 from rest_framework.decorators import api_view
-from weather.builders.response_builder import ResponseBuilder
+from recipe.builders.response_builder import ResponseBuilder
 
 @api_view(["GET"])
 def health(request):
