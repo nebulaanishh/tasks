@@ -42,6 +42,7 @@ INSTALLED_APPS = [
 
     'corsheaders',
     'rest_framework',
+    'weather',
 ]
 
 CORS_ALLOW_ALL_ORIGINS = True
