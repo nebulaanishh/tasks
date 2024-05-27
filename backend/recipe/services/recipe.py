@@ -13,7 +13,9 @@ class RecipeService():
         """ """
         recipes = Recipe.objects.all()
         serializer = RecipeSerializer(recipes, many=True)
-        return Response(serializer.data)
+        if not serializer:
+            return Response(serializer.errors, status=status.HTTP_404_NOT_FOUND)
+        return Response(serializer.data, status=status.HTTP_200_OK)
 
 
     def create_new_recipe(self, data):
@@ -33,21 +35,24 @@ class RecipeService():
     def get_recipe_detail(self, pk):
         recipe = self.get_object(pk)
         serializer = RecipeSerializer(recipe)
-        return Response(serializer.data)
+        if not serializer:
+            return Response(serializer.errors, status=status.HTTP_404_NOT_FOUND)
+        return Response(serializer.data, status=status.HTTP_200_OK)
     
     def update_recipe_detail(self, request, pk):
         recipe = self.get_object(pk)
-        serializer = RecipeSerializer(recipe, data=request.data)
+        serializer = RecipeSerializer(recipe, data=request.data, partial=True)
         if serializer.is_valid():
             serializer.save()
-            return Response(serializer.data)
+            return Response(serializer.data, status=status.HTTP_201_CREATED)
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
     def delete_recipe(self, pk):
         recipe = self.get_object(pk)
-        recipe.delete()
-        return Response(status=status.HTTP_204_NO_CONTENT)
-
+        if recipe:
+            recipe.delete()
+            return Response(status=status.HTTP_204_NO_CONTENT)
+        return Response(status=status.HTTP_404_NOT_FOUND)
 
 
 

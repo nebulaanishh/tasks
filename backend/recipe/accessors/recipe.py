@@ -22,16 +22,20 @@ class RecipeAccessor():
         
         try:
             response = requests.get(full_path)
+            return response.json()
         except TimeoutError as t:
             return {'error': 'Request Timed Out'}
+        return None
         
-        return response.json()
 
 
     def save_recipe_to_db(self, recipe: dict) -> bool:
         """ Saves the fetched recipe to database and returns bool value """
         
         try:
+            if not recipe.get("name", None):
+                return False
+            
             current_recipe = Recipe.objects.get_or_create(
                 name =  recipe.get('name', ''),
                 instructions =  " ".join(recipe.get('instructions', [])),
