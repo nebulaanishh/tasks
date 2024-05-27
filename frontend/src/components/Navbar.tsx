@@ -14,16 +14,17 @@ function Navbar() {
 
     return (
         <>
-            <div className="w-11/12 p-2 bg-yellow-500 mx-auto align-center flex justify-between">
+
+            <div className="w-11/12 p-2 mx-auto align-center flex justify-between">
                 <Link to='/'>
-                <img height={50} width={50} src={Logo} alt="" />
+                    <img height={50} width={50} src={Logo} alt="" />
                 </Link>
                 <div className="">
                     <ul className="flex justify-center align-center p-4 space-x-6 font-semibold text-slate-800">
                         {navItems.map((item) => (
                             <li>
                                 <Link to={item.toLowerCase()}>
-                                {item}
+                                    {item}
                                 </Link>
                             </li>
                         ))}
