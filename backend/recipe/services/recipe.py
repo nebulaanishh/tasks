@@ -41,7 +41,7 @@ class RecipeService():
     
     def update_recipe_detail(self, request, pk):
         recipe = self.get_object(pk)
-        serializer = RecipeSerializer(recipe, data=request.data)
+        serializer = RecipeSerializer(recipe, data=request.data, partial=True)
         if serializer.is_valid():
             serializer.save()
             return Response(serializer.data, status=status.HTTP_201_CREATED)
