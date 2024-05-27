@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 const Layout = ({children}:any) => {
     
     return (
-        <div className="bg-yellow-500">
+        <div className="">
             <Navbar />
                 {children}
             <Footer />

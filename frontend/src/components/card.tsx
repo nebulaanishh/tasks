@@ -3,8 +3,6 @@ function Card({ item }: any) {
 
     return (
         <>
-
-            <div className="grid grid-cols-3 gap-4">
                 <div className="bg-white rounded-md overflow-hidden relative shadow-md">
                     <div>
                         <img className="w-full" src={item.image} alt="Recipe Title" />
@@ -32,14 +30,14 @@ function Card({ item }: any) {
                                 <span className="ml-1 lg:text-xl"> {item.servings} </span>
                             </div>
                         </div>
-                        <p className="mb-4 text-gray-500"> {item.instructions} </p>
+                        <p className="mb-4 text-gray-500"> {item.instructions.slice(1,100)} </p>
                         <button className="text-white bg-green-400 p-4 rounded-md w-full uppercase">View Recipe</button>
                     </div>
                     <div className="absolute top-0 right-0 mt-4 mr-4 bg-green-400 text-white rounded-full pt-1 pb-1 pl-4 pr-5 text-xs uppercase">
                         <span> {item.difficulty} </span>
                     </div>
                 </div>
-            </div>
+    
         </>
     )
 }

@@ -7,7 +7,7 @@ import { useNavigate } from "react-router-dom";
 import Cards from "../components/allCards";
 
 
-function Homepage() {
+function RecipeList() {
     const { data: items, loading, error } = useFetch('http://localhost:8000/recipes/')
     const navigate = useNavigate();
 
@@ -19,8 +19,7 @@ function Homepage() {
     return (
         <>
             <Layout>
-                <Hero />
-                <Cards items={items.slice(1,4)} />
+                <Cards items={items} />
             </Layout>
 
 
@@ -28,4 +27,4 @@ function Homepage() {
     )
 }
 
-export default Homepage
+export default RecipeList
