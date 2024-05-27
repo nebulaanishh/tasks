@@ -11,7 +11,6 @@ function useFetch(url: string) {
         setLoading(true)
         setData(null);
         setError(false);
-        // const source = axios.CancelToken.source();
         axios.get(url)
             .then(res => {
                 setLoading(false);
@@ -23,9 +22,6 @@ function useFetch(url: string) {
                 setError(true)
                 console.log(err)
             })
-        return () => {
-            // source.cancel();
-        }
     }, [url])
 
     return { data, loading, error }
