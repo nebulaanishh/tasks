@@ -14,8 +14,7 @@ class RecipeAccessor():
             return {'error': "Request Timed Out"}
         if response.json().get('recipes', None):
             return response.json()['recipes']
-        else:
-            return None
+        return None
         
 
     def get_recipe_by_id(self, id):
@@ -43,8 +42,8 @@ class RecipeAccessor():
                 calories_per_serving = recipe.get("caloriesPerServing"),
                 image = recipe.get("image", ""),
                 rating =  recipe.get("rating", 0.0),
-                ingredients = {"ingredients": recipe.get('ingredients', "")},
-                tags = {"tags": recipe.get('tags', "")}
+                ingredients = recipe.get('ingredients', []),
+                tags = recipe.get('tags', [])
                 
             )
             return True
