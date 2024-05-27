@@ -1,5 +1,3 @@
-from rest_framework import status
-from rest_framework.response import Response
 from rest_framework.views import APIView
 
 from recipe.accessors.recipe import RecipeAccessor
@@ -18,6 +16,7 @@ class RecipeList(APIView):
     def post(self, request, format=None):
         response = self.service.create_new_recipe(request.data)
         return response
+
 
 class RecipeDetail(APIView):
     """ Retrieve, update or delete a recipe instance """
