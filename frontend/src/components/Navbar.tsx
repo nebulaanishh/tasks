@@ -21,8 +21,8 @@ function Navbar() {
                 </Link>
                 <div className="">
                     <ul className="flex justify-center align-center p-4 space-x-6 font-semibold text-slate-800">
-                        {navItems.map((item) => (
-                            <li>
+                        {navItems.map((item, index) => (
+                            <li key={index} > 
                                 <Link to={item.toLowerCase()}>
                                     {item}
                                 </Link>
