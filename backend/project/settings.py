@@ -43,9 +43,17 @@ INSTALLED_APPS = [
     'corsheaders',
     'rest_framework',
     'recipe',
+    'drf_yasg',
 ]
 
 CORS_ALLOW_ALL_ORIGINS = True
+SWAGGER_SETTINGS = {
+    'SECURITY_DEFINITIONS': {
+        'Basic': {
+            'type': 'basic'
+        }
+    }
+}
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
