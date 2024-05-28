@@ -12,7 +12,7 @@ class RecipeService():
     def get_all_recipes(self):
         recipes = Recipe.objects.all()
         serializer = RecipeSerializer(recipes, many=True)
-        if not serializer.is_valid():
+        if not serializer:
             return Response(serializer.errors, status=status.HTTP_404_NOT_FOUND)
         return Response(serializer.data, status=status.HTTP_200_OK)
 
@@ -34,7 +34,7 @@ class RecipeService():
     def get_recipe_detail(self, pk):
         recipe = self.get_object(pk)
         serializer = RecipeSerializer(recipe)
-        if not serializer.is_valid():
+        if not serializer:
             return Response(serializer.errors, status=status.HTTP_404_NOT_FOUND)
         return Response(serializer.data, status=status.HTTP_200_OK)
     
