@@ -427,3 +427,123 @@
 2024-06-01 16:28:38,845 - recipe.helpers.logger - ERROR - Object not found
 2024-06-01 16:28:38,847 - recipe.helpers.logger - INFO - UPDATING recipe with id: 9..
 2024-06-01 16:28:38,849 - recipe.helpers.logger - INFO - UPDATE recipe with id: 9 successfully
+2024-06-03 04:10:16,795 - recipe.helpers.logger - INFO - CREATING new recipe
+2024-06-03 04:10:16,827 - recipe.helpers.logger - INFO - CREATED Recipe successfully.
+2024-06-03 04:10:16,829 - recipe.helpers.logger - INFO - CREATING new recipe
+2024-06-03 04:10:16,829 - recipe.helpers.logger - ERROR - Validation Error in Create Recipe
+2024-06-03 04:10:16,830 - recipe.helpers.logger - INFO - DELETING recipe with id: 5
+2024-06-03 04:10:16,832 - recipe.helpers.logger - INFO - DELETED Recipe with id: 5 successfully.
+2024-06-03 04:10:16,833 - recipe.helpers.logger - INFO - FETCHING all recipes from database.
+2024-06-03 04:10:16,833 - recipe.helpers.logger - INFO - FETCHED 1 recipes from database
+2024-06-03 04:10:16,835 - recipe.helpers.logger - INFO - FETCHING recipe detail by id
+2024-06-03 04:10:16,835 - recipe.helpers.logger - INFO - FETCHED details for recipe with id 7
+2024-06-03 04:10:16,837 - recipe.helpers.logger - INFO - FETCHING recipe detail by id
+2024-06-03 04:10:16,838 - recipe.helpers.logger - ERROR - FAILED to FETCH Recipe with given id: <built-in function id>
+2024-06-03 04:10:16,838 - recipe.helpers.logger - ERROR - Object not found
+2024-06-03 04:10:16,840 - recipe.helpers.logger - INFO - UPDATING recipe with id: 9..
+2024-06-03 04:10:16,842 - recipe.helpers.logger - INFO - UPDATE recipe with id: 9 successfully
+2024-06-03 04:10:32,552 - recipe.helpers.logger - INFO - CREATING new recipe
+2024-06-03 04:10:32,580 - recipe.helpers.logger - INFO - CREATED Recipe successfully.
+2024-06-03 04:10:32,582 - recipe.helpers.logger - INFO - CREATING new recipe
+2024-06-03 04:10:32,583 - recipe.helpers.logger - ERROR - Validation Error in Create Recipe
+2024-06-03 04:10:32,584 - recipe.helpers.logger - INFO - DELETING recipe with id: 5
+2024-06-03 04:10:32,585 - recipe.helpers.logger - INFO - DELETED Recipe with id: 5 successfully.
+2024-06-03 04:10:32,588 - recipe.helpers.logger - INFO - FETCHING all recipes from database.
+2024-06-03 04:10:32,588 - recipe.helpers.logger - INFO - FETCHED 1 recipes from database
+2024-06-03 04:10:32,592 - recipe.helpers.logger - INFO - FETCHING recipe detail by id
+2024-06-03 04:10:32,594 - recipe.helpers.logger - INFO - FETCHED details for recipe with id 7
+2024-06-03 04:10:32,598 - recipe.helpers.logger - INFO - FETCHING recipe detail by id
+2024-06-03 04:10:32,599 - recipe.helpers.logger - ERROR - FAILED to FETCH Recipe with given id: <built-in function id>
+2024-06-03 04:10:32,599 - recipe.helpers.logger - ERROR - Object not found
+2024-06-03 04:10:32,600 - recipe.helpers.logger - INFO - UPDATING recipe with id: 9..
+2024-06-03 04:10:32,601 - recipe.helpers.logger - INFO - UPDATE recipe with id: 9 successfully
+2024-06-03 04:10:39,751 - recipe.helpers.logger - INFO - CREATING new recipe
+2024-06-03 04:10:39,780 - recipe.helpers.logger - INFO - CREATED Recipe successfully.
+2024-06-03 04:10:39,781 - recipe.helpers.logger - INFO - CREATING new recipe
+2024-06-03 04:10:39,782 - recipe.helpers.logger - ERROR - Validation Error in Create Recipe
+2024-06-03 04:10:39,783 - recipe.helpers.logger - INFO - DELETING recipe with id: 5
+2024-06-03 04:10:39,788 - recipe.helpers.logger - INFO - DELETED Recipe with id: 5 successfully.
+2024-06-03 04:10:39,792 - recipe.helpers.logger - INFO - FETCHING all recipes from database.
+2024-06-03 04:10:39,792 - recipe.helpers.logger - INFO - FETCHED 1 recipes from database
+2024-06-03 04:10:39,794 - recipe.helpers.logger - INFO - FETCHING recipe detail by id
+2024-06-03 04:10:39,794 - recipe.helpers.logger - INFO - FETCHED details for recipe with id 7
+2024-06-03 04:10:39,795 - recipe.helpers.logger - INFO - FETCHING recipe detail by id
+2024-06-03 04:10:39,796 - recipe.helpers.logger - ERROR - FAILED to FETCH Recipe with given id: <built-in function id>
+2024-06-03 04:10:39,796 - recipe.helpers.logger - ERROR - Object not found
+2024-06-03 04:10:39,797 - recipe.helpers.logger - INFO - UPDATING recipe with id: 9..
+2024-06-03 04:10:39,798 - recipe.helpers.logger - INFO - UPDATE recipe with id: 9 successfully
+2024-06-03 04:12:21,948 - recipe.helpers.logger - INFO - CREATING new recipe
+2024-06-03 04:12:21,977 - recipe.helpers.logger - INFO - CREATED Recipe successfully.
+2024-06-03 04:12:21,979 - recipe.helpers.logger - INFO - CREATING new recipe
+2024-06-03 04:12:21,980 - recipe.helpers.logger - ERROR - Validation Error in Create Recipe
+2024-06-03 04:12:21,983 - recipe.helpers.logger - INFO - DELETING recipe with id: 5
+2024-06-03 04:12:21,985 - recipe.helpers.logger - INFO - DELETED Recipe with id: 5 successfully.
+2024-06-03 04:12:21,986 - recipe.helpers.logger - INFO - FETCHING all recipes from database.
+2024-06-03 04:12:21,987 - recipe.helpers.logger - INFO - FETCHED 1 recipes from database
+2024-06-03 04:12:21,988 - recipe.helpers.logger - INFO - FETCHING recipe detail by id
+2024-06-03 04:12:21,989 - recipe.helpers.logger - INFO - FETCHED details for recipe with id 7
+2024-06-03 04:12:21,990 - recipe.helpers.logger - INFO - FETCHING recipe detail by id
+2024-06-03 04:12:21,991 - recipe.helpers.logger - ERROR - FAILED to FETCH Recipe with given id: <built-in function id>
+2024-06-03 04:12:21,991 - recipe.helpers.logger - ERROR - Object not found
+2024-06-03 04:12:21,992 - recipe.helpers.logger - INFO - UPDATING recipe with id: 9..
+2024-06-03 04:12:21,993 - recipe.helpers.logger - INFO - UPDATE recipe with id: 9 successfully
+2024-06-03 04:12:41,521 - recipe.helpers.logger - INFO - CREATING new recipe
+2024-06-03 04:12:41,554 - recipe.helpers.logger - INFO - CREATED Recipe successfully.
+2024-06-03 04:12:41,556 - recipe.helpers.logger - INFO - CREATING new recipe
+2024-06-03 04:12:41,557 - recipe.helpers.logger - ERROR - Validation Error in Create Recipe
+2024-06-03 04:12:41,558 - recipe.helpers.logger - INFO - DELETING recipe with id: 5
+2024-06-03 04:12:41,559 - recipe.helpers.logger - INFO - DELETED Recipe with id: 5 successfully.
+2024-06-03 04:12:41,561 - recipe.helpers.logger - INFO - FETCHING all recipes from database.
+2024-06-03 04:12:41,561 - recipe.helpers.logger - INFO - FETCHED 1 recipes from database
+2024-06-03 04:12:41,563 - recipe.helpers.logger - INFO - FETCHING recipe detail by id
+2024-06-03 04:12:41,564 - recipe.helpers.logger - INFO - FETCHED details for recipe with id 7
+2024-06-03 04:12:41,568 - recipe.helpers.logger - INFO - FETCHING recipe detail by id
+2024-06-03 04:12:41,570 - recipe.helpers.logger - ERROR - FAILED to FETCH Recipe with given id: <built-in function id>
+2024-06-03 04:12:41,570 - recipe.helpers.logger - ERROR - Object not found
+2024-06-03 04:12:41,573 - recipe.helpers.logger - INFO - UPDATING recipe with id: 9..
+2024-06-03 04:12:41,576 - recipe.helpers.logger - INFO - UPDATE recipe with id: 9 successfully
+2024-06-03 04:15:07,102 - recipe.helpers.logger - INFO - CREATING new recipe
+2024-06-03 04:15:07,129 - recipe.helpers.logger - INFO - CREATED Recipe successfully.
+2024-06-03 04:15:07,130 - recipe.helpers.logger - INFO - CREATING new recipe
+2024-06-03 04:15:07,131 - recipe.helpers.logger - ERROR - Validation Error in Create Recipe
+2024-06-03 04:15:07,132 - recipe.helpers.logger - INFO - DELETING recipe with id: 5
+2024-06-03 04:15:07,133 - recipe.helpers.logger - INFO - DELETED Recipe with id: 5 successfully.
+2024-06-03 04:15:07,135 - recipe.helpers.logger - INFO - FETCHING all recipes from database.
+2024-06-03 04:15:07,136 - recipe.helpers.logger - INFO - FETCHED 1 recipes from database
+2024-06-03 04:15:07,139 - recipe.helpers.logger - INFO - FETCHING recipe detail by id
+2024-06-03 04:15:07,140 - recipe.helpers.logger - INFO - FETCHED details for recipe with id 7
+2024-06-03 04:15:07,143 - recipe.helpers.logger - INFO - FETCHING recipe detail by id
+2024-06-03 04:15:07,143 - recipe.helpers.logger - ERROR - FAILED to FETCH Recipe with given id: <built-in function id>
+2024-06-03 04:15:07,143 - recipe.helpers.logger - ERROR - Object not found
+2024-06-03 04:15:07,145 - recipe.helpers.logger - INFO - UPDATING recipe with id: 9..
+2024-06-03 04:15:07,147 - recipe.helpers.logger - INFO - UPDATE recipe with id: 9 successfully
+2024-06-03 04:15:39,882 - recipe.helpers.logger - INFO - CREATING new recipe
+2024-06-03 04:15:39,911 - recipe.helpers.logger - INFO - CREATED Recipe successfully.
+2024-06-03 04:15:39,914 - recipe.helpers.logger - INFO - CREATING new recipe
+2024-06-03 04:15:39,914 - recipe.helpers.logger - ERROR - Validation Error in Create Recipe
+2024-06-03 04:15:39,915 - recipe.helpers.logger - INFO - DELETING recipe with id: 5
+2024-06-03 04:15:39,917 - recipe.helpers.logger - INFO - DELETED Recipe with id: 5 successfully.
+2024-06-03 04:15:39,918 - recipe.helpers.logger - INFO - FETCHING all recipes from database.
+2024-06-03 04:15:39,918 - recipe.helpers.logger - INFO - FETCHED 1 recipes from database
+2024-06-03 04:15:39,920 - recipe.helpers.logger - INFO - FETCHING recipe detail by id
+2024-06-03 04:15:39,920 - recipe.helpers.logger - INFO - FETCHED details for recipe with id 7
+2024-06-03 04:15:39,921 - recipe.helpers.logger - INFO - FETCHING recipe detail by id
+2024-06-03 04:15:39,922 - recipe.helpers.logger - ERROR - FAILED to FETCH Recipe with given id: <built-in function id>
+2024-06-03 04:15:39,922 - recipe.helpers.logger - ERROR - Object not found
+2024-06-03 04:15:39,927 - recipe.helpers.logger - INFO - UPDATING recipe with id: 9..
+2024-06-03 04:15:39,929 - recipe.helpers.logger - INFO - UPDATE recipe with id: 9 successfully
+2024-06-03 05:36:09,616 - recipe.helpers.logger - INFO - CREATING new recipe
+2024-06-03 05:36:09,645 - recipe.helpers.logger - INFO - CREATED Recipe successfully.
+2024-06-03 05:36:09,646 - recipe.helpers.logger - INFO - CREATING new recipe
+2024-06-03 05:36:09,647 - recipe.helpers.logger - ERROR - Validation Error in Create Recipe
+2024-06-03 05:36:09,647 - recipe.helpers.logger - INFO - DELETING recipe with id: 5
+2024-06-03 05:36:09,649 - recipe.helpers.logger - INFO - DELETED Recipe with id: 5 successfully.
+2024-06-03 05:36:09,650 - recipe.helpers.logger - INFO - FETCHING all recipes from database.
+2024-06-03 05:36:09,651 - recipe.helpers.logger - INFO - FETCHED 1 recipes from database
+2024-06-03 05:36:09,655 - recipe.helpers.logger - INFO - FETCHING recipe detail by id
+2024-06-03 05:36:09,657 - recipe.helpers.logger - INFO - FETCHED details for recipe with id 7
+2024-06-03 05:36:09,659 - recipe.helpers.logger - INFO - FETCHING recipe detail by id
+2024-06-03 05:36:09,659 - recipe.helpers.logger - ERROR - FAILED to FETCH Recipe with given id: <built-in function id>
+2024-06-03 05:36:09,659 - recipe.helpers.logger - ERROR - Object not found
+2024-06-03 05:36:09,660 - recipe.helpers.logger - INFO - UPDATING recipe with id: 9..
+2024-06-03 05:36:09,662 - recipe.helpers.logger - INFO - UPDATE recipe with id: 9 successfully
